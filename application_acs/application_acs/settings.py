@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'climate_management.apps.ClimateManagementConfig',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
